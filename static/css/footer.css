@@ -1,0 +1,10 @@
+/* Footer CSS */
+.footer {
+    background: linear-gradient(#c08261,#65351f);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
