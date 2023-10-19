@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/Home.css">
     <link rel="icon" type="image/x-icon" href="/static/imgs/favicon.ico">
-    <title>Brew House</title>
+    <title>Document</title>
 </head>
 
 <body>
     {% include 'nav.html'%}
-    <section class="background-image">
-        <div>
+    <section>
+        <div class="background-image">
             <!-- <button id="scrollButton">Scroll Down &#8595;</button> -->
             <div class="content">
                 &nbsp;&nbsp;WELCOME<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TO<br>BREW&nbsp;&nbsp;HOUSE<br>
@@ -20,8 +20,8 @@
             </div>
         </div>
     </section>
-    <hr>
-    <!-- <div class="background-image1">
+    <section>
+        <!-- <div class="background-image1">
             <button id="scrollUpBtn">Scroll Up &#8593;</button>
             <div class="image-container">
                 <div class="image">
@@ -40,34 +40,51 @@
                     <img src="/iced latte.jpeg" alt="Image 3">
                     <p class="coffeenames">Iced Latte coffee</p>
                 </div> -->
-    <!-- <div>
-                        <p>Best Sellers</p>
-                        <div class="product">
-                            <img src="/static/imgs/cold coffee.jpg" alt="Product 1">
-                            <h3>Cold coffee</h3>
-                            <p>Description of Product 1.</p>
-                            <p class="price">$19.99</p>
-                        </div>
-                        <div class="product">
-                            <img src="/static/imgs/strong cold coffee.jpg" alt="Product 2">
-                            <h3>Strong Cold coffee</h3>
-                            <p>Description of Product 2.</p>
-                            <p class="price">$24.99</p>
-                        </div>
-                        <div class="product">
-                            <img src="/static/imgs/caramel.jpeg" alt="Product 3">
-                            <h3>Caramel</h3>
-                            <p>Description of Product 3.</p>
-                            <p class="price">$29.99</p>
-                        </div>
-                        <div class="product">
-                            <img src="/static/imgs/Espresso.jpeg" alt="Product 3">
-                            <h3>Espresso</h3>
-                            <p>Description of Product 3.</p>
-                            <p class="price">$29.99</p>
-                        </div>    
-                    </div> -->
-    <button id="openPopup" class="login-button"><a>Log in</a></button></li>
+                <hr>
+                <section>
+        <div class="best-seller-box">
+            <h2>BestSellers</h2>
+            <div class="product">
+                <img src="/static/imgs/cold coffee.jpg" alt="Product 1">
+                <p>Cold coffee
+                    <br><br>₹129/-
+                </p>
+                <button class="ATC"> Add To Cart</button>
+            </div>
+            <div class="product">
+                <img src="/static/imgs/caramel.jpeg" alt="Product 3">
+                <p>Caramel
+                    <br><br>₹189/-
+                </p>
+                <button class="ATC"> Add To Cart</button>
+            </div>
+            <div class="product">
+                <img src="/static/imgs/Espresso.jpeg" alt="Product 3">
+                <p>Espresso
+                    <br><br>₹249/-
+                </p>
+                <button class="ATC"> Add To Cart</button>
+            </div>
+            <div class="product">
+                <img src="/static/imgs/amaricano coffee.jpeg" alt="Product 2">
+                <p>Americano
+                    <br><br>₹369/-
+                </p>
+                <button class="ATC"> Add To Cart</button>
+            </div>
+                <div class="Explore">
+                    <button>Explore Menu &#8594; </button>
+                </div>
+            </section>
+                <hr>
+                <section class="Aboutus">
+                    <div>
+                        <h1>About Us</h1>
+                    </div>
+                </section>
+        </div>
+    </section>
+    <!-- <button id="openPopup" class="login-button"><a>Log in</a></button></li>
     <div id="popup-content" class="popup" style="display: none;">
         <div class="popup-content">
             <span class="close" id="closePopup">&times;</span>
@@ -92,8 +109,7 @@
             </form>
         </div>
     </div>
-    </div>
-    </section>
+    </div> -->
     {% include 'footer.html'%}
 </body>
 
