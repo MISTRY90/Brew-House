@@ -9,3 +9,6 @@ def navbar(request):
 
 def footer(request):
     return render(request,'footer.html')
+
+def Menu(request):
+    return render(request,'Menu.html')

@@ -22,4 +22,5 @@ urlpatterns = [
     path('',index,name="index"),
     path('navbar',navbar,name='navbar'),
     path('footer',footer,name='footer'),
+    path('Menu',Menu,name='Menu')
 ]
