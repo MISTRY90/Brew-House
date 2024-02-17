@@ -1,4 +1,5 @@
 Brew House
+
 Welcome to the Brew House Website project! This project is a simple and stylish website template for a coffee cafe. Whether you're a coffee enthusiast looking to showcase your favorite brews or a cafe owner wanting to establish an online presence, this project provides a solid foundation.
 
 Features
